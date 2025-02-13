@@ -101,37 +101,31 @@ Testing:
 | SSIM + MAE  | **31.4853**   | **0.8640**    | 26.6860    | **0.7754**     | 26.2479     | **0.7372**      | 25.7384       | **0.7747**        | 20.8003       | 0.7105        |
 
 ### Qualitative Analysis of All the Trained Models
-Below is a brief qualitative summary, highlighting the strengths and weaknesses of each loss function:
-
+*Below is a brief qualitative summary, highlighting the strengths and weaknesses of each loss function:*
 - **MAE (L1):**  
   - **Strengths:** Produces sharper edges and well-defined textures—excelling on natural scenes.  
   - **Weaknesses:** May introduce noticeable noise in highly detailed or low-contrast regions.
-
 - **MSE (L2):**  
   - **Strengths:** Yields smoother outputs, which works well for images with subtle gradients (e.g., urban scenes).  
   - **Weaknesses:** Tends to over-smooth and lose fine details in images with rich textures (e.g., manga or intricate artworks).
-
 - **Tukey Loss:**  
   - **Strengths:** Effectively suppresses outliers, maintaining balanced overall structure in natural images.  
   - **Weaknesses:** May underperform in capturing very fine details in highly complex textures.
-
 - **Charbonnier Loss:**  
   - **Strengths:** Offers a robust balance between smoothness and detail preservation—good for a variety of scenes.  
   - **Weaknesses:** Sometimes struggles with retaining the crispness of edges in extremely intricate regions.
-
 - **TV + MAE:**  
   - **Strengths:** Reduces artifacts and noise, producing clean and smooth results—beneficial for noisy images.  
   - **Weaknesses:** Over-smoothing can lead to a loss of critical fine details in textured or high-frequency regions.
-
 - **SSIM + MAE:**  
   - **Strengths:** Enhances structural fidelity and perceptual quality, making it ideal for maintaining overall scene structure.  
   - **Weaknesses:** May sacrifice some pixel-level precision in areas with extremely high detail and takes longer time to train due to complex SSIM calculations.
 
 ![Set14Ex](./images/Set14Picture.png) <br>
-Results on a patch extracted from Set14 dataset <br><br>
+*Results on a patch extracted from Set14 dataset* <br><br>
 
 ![Manga109Ex](./images/Manga109Picture.png) <br>
-Results on a patch extracted from Manga109 dataset <br>
+*Results on a patch extracted from Manga109 dataset* <br>
 
 ## ⚠️ Limitations and Future Work
 - **Limited Training Data:**  
