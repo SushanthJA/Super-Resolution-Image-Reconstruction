@@ -40,9 +40,9 @@ This repository contains all necessary code and resources for training, testing,
 - **Final Output Layer**: Two convolutional layers followed by a **Sigmoid activation** to stabilize pixel values.
 
 ![UNet Model Architecture](./images/UNet.png) <br>
-*UNet Model Architecture* <br><br>
+*UNet Model Architecture* <br><br><br>
 ![RiR Block](./images/RiR.png) <br>
-*RiR Block* <br><br>
+*RiR Block* <br><br><br>
 ![Inception Block](./images/Inception.png) <br>
 *Inception Block* <br><br>
 
