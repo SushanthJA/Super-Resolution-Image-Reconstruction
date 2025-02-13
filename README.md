@@ -40,11 +40,11 @@ This repository contains all necessary code and resources for training, testing,
 - **Final Output Layer**: Two convolutional layers followed by a **Sigmoid activation** to stabilize pixel values.
 
 ![UNet Model Architecture](./images/UNet.png) <br>
-<p "align=center"> *UNet Model Architecture* </p> <br><br><br>
+<p align="center"> *UNet Model Architecture* </p> <br><br><br>
 ![RiR Block](./images/RiR.png) <br>
-<p "align=center"> *RiR Block* </p> <br><br><br>
+<p align="center"> *RiR Block* </p> <br><br><br>
 ![Inception Block](./images/Inception.png) <br>
-<p "align=center"> *Inception Block* </p> <br><br>
+<p align="center"> *Inception Block* </p> <br><br>
 
 ## 📂 **Dataset**  
 Training & validation:  
@@ -125,13 +125,13 @@ Testing:
   - **Weaknesses:** May sacrifice some pixel-level precision in areas with extremely high detail and takes longer time to train due to complex SSIM calculations.
 
 ![Set14Ex](./images/Set14Ex.png) <br>
-<p "align=center"> *Results on a patch extracted from Set14 dataset* </p> <br><br>
+<p align="center"> *Results on a patch extracted from Set14 dataset* </p> <br><br>
 
 ![Urban100Ex](./images/Urban100Ex.png) <br>
-<p "align=center"> *Results on a patch extracted from Urban100 dataset* </p> <br><br>
+<p align="center"> *Results on a patch extracted from Urban100 dataset* </p> <br><br>
 
 ![Manga109Ex](./images/Manga109Ex.png) <br>
-<p "align=center"> *Results on a patch extracted from Manga109 dataset* </p> <br>
+<p align="center"> *Results on a patch extracted from Manga109 dataset* </p> <br>
 
 ## ⚠️ Limitations and Future Work
 - **Limited Training Data:**  
