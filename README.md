@@ -127,10 +127,10 @@ Testing:
   - **Weaknesses:** May sacrifice some pixel-level precision in areas with extremely high detail and takes longer time to train due to complex SSIM calculations.
 
 ![Set14Ex](./images/Set14Ex.png)
-<p align="center"> <i>Results on a patch extracted from Set14 dataset</i> </p> <br><br>
+<p align="center"> <i>Results on a patch extracted from Set14 dataset</i> </p> <br>
 
 ![Urban100Ex](./images/Urban100Ex.png)
-<p align="center"> <i>Results on a patch extracted from Urban100 dataset</i> </p> <br><br>
+<p align="center"> <i>Results on a patch extracted from Urban100 dataset</i> </p> <br>
 
 ![Manga109Ex](./images/Manga109Ex.png)
 <p align="center"> <i>Results on a patch extracted from Manga109 dataset</i> </p> <br>
