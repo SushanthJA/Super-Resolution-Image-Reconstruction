@@ -94,7 +94,7 @@ Testing:
 - **GPU Acceleration**: Trained on NVIDIA Tesla T4 (15GB VRAM)  
 
 ## 📈 **Results & Findings**  
-### Table. Quantitative Analysis of All the Trained Models
+### Quantitative Analysis of All the Trained Models
 
 | Loss Function | Set5 PSNR | Set5 SSIM | Set14 PSNR | Set14 SSIM | BSD100 PSNR | BSD100 SSIM | Urban100 PSNR | Urban100 SSIM | Manga109 PSNR | Manga109 SSIM |
 |---------------|-----------|-----------|------------|------------|-------------|-------------|---------------|---------------|---------------|---------------|
