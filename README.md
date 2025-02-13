@@ -126,13 +126,13 @@ Testing:
   - **Strengths:** Enhances structural fidelity and perceptual quality, making it ideal for maintaining overall scene structure.  
   - **Weaknesses:** May sacrifice some pixel-level precision in areas with extremely high detail and takes longer time to train due to complex SSIM calculations.
 
-![Set14Ex](./images/Set14Ex.png) <br>
+![Set14Ex](./images/Set14Ex.png)
 <p align="center"> <i>Results on a patch extracted from Set14 dataset</i> </p> <br><br>
 
-![Urban100Ex](./images/Urban100Ex.png) <br>
+![Urban100Ex](./images/Urban100Ex.png)
 <p align="center"> <i>Results on a patch extracted from Urban100 dataset</i> </p> <br><br>
 
-![Manga109Ex](./images/Manga109Ex.png) <br>
+![Manga109Ex](./images/Manga109Ex.png)
 <p align="center"> <i>Results on a patch extracted from Manga109 dataset</i> </p> <br>
 
 ## ⚠️ Limitations and Future Work
