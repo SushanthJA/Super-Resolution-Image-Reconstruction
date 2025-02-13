@@ -33,6 +33,10 @@ This repository contains all necessary code and resources for training, testing,
   - Stored in **`tensorboard_runs/` folder** (logs of all model runs).  
 
 ## 🏗 **Model Architecture**  
+![UNet Model Architecture](./images/UNet.png)
+![RiR Block](./images/RiR.png)
+![Inception Block](./images/Inception.png)
+
 - **Encoder-Decoder UNet** with skip connections for multi-scale feature extraction.  
 - **Residual-in-Residual (RiR) blocks** with **inception modules** for deep hierarchical feature learning.  
 - **Pre-Upsampling Strategy**: LR images are upsampled before being passed into the network.  
