@@ -39,11 +39,9 @@ This repository contains all necessary code and resources for training, testing,
 - **Pre-Upsampling Strategy**: LR images are upsampled before being passed into the network.  
 - **Final Output Layer**: Two convolutional layers followed by a **Sigmoid activation** to stabilize pixel values.
 
-![UNet Model Architecture](./images/UNet.png)
-
-![RiR Block](./images/RiR.png)
-
-![Inception Block](./images/Inception.png)
+![UNet Model Architecture](./images/UNet.png) <br>
+![RiR Block](./images/RiR.png) <br>
+![Inception Block](./images/Inception.png) <br>
 
 ## 📂 **Dataset**  
 Training & validation:  
@@ -129,12 +127,11 @@ Below is a brief qualitative summary, highlighting the strengths and weaknesses 
   - **Strengths:** Enhances structural fidelity and perceptual quality, making it ideal for maintaining overall scene structure.  
   - **Weaknesses:** May sacrifice some pixel-level precision in areas with extremely high detail and takes longer time to train due to complex SSIM calculations.
 
-![Set14Ex](./images/Set14Picture.png)
-Results on a patch extracted from Set14 dataset
+![Set14Ex](./images/Set14Picture.png) <br>
+Results on a patch extracted from Set14 dataset <br><br>
 
-
-![Manga109Ex](./images/Manga109Picture.png)
-Results on a patch extracted from Manga109 dataset
+![Manga109Ex](./images/Manga109Picture.png) <br>
+Results on a patch extracted from Manga109 dataset <br>
 
 ## ⚠️ Limitations and Future Work
 - **Limited Training Data:**  
