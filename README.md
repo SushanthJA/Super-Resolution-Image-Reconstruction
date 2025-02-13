@@ -39,13 +39,13 @@ This repository contains all necessary code and resources for training, testing,
 - **Pre-Upsampling Strategy**: LR images are upsampled before being passed into the network.  
 - **Final Output Layer**: Two convolutional layers followed by a **Sigmoid activation** to stabilize pixel values.
 
-![UNet Model Architecture](./images/UNet.png) <br>
+![UNet Model Architecture](./images/UNet.png)
 <p align="center"> <i>UNet Model Architecture</i> <br><br><br>
 
-![RiR Block](./images/RiR.png) <br>
-<p align="center"> <i>RiR Block*</i> <br><br><br>
+![RiR Block](./images/RiR.png)
+<p align="center"> <i>RiR Block</i> <br><br><br>
 
-![Inception Block](./images/Inception.png) <br>
+![Inception Block](./images/Inception.png)
 <p align="center"> <i>Inception Block</i> <br><br>
 
 ## 📂 **Dataset**  
