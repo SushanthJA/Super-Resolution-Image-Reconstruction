@@ -44,7 +44,7 @@ This repository contains all necessary code and resources for training, testing,
 ![RiR Block](./images/RiR.png) <br>
 <p align="center"> *RiR Block* </p> <br><br><br>
 ![Inception Block](./images/Inception.png) <br>
-<p align="center"> *Inception Block* </p> <br><br>
+<p align="center"> <i>Inception Block</i> </p> <br><br>
 
 ## 📂 **Dataset**  
 Training & validation:  
