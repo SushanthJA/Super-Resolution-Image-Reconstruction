@@ -1,4 +1,5 @@
 # **Super-Resolution Image Reconstruction: A Comparative Analysis of Loss Functions**  
+This project was conducted as part of my Master's thesis at the University of Birmingham. The research paper can be found [here](https://drive.google.com/file/d/1e3rKlcT6vA-PURgD8ZMENdxeYbYR2ivL/view).
 
 ## 📌 **Overview**  
 This project explores the impact of different loss functions on **Single Image Super-Resolution (SISR)** for **4x upscaling**, using a **UNet architecture with residual-in-residual (RiR) blocks**. The study evaluates common loss functions like **L1 (MAE)** and **L2 (MSE)** alongside less common ones such as **Tukey loss, Charbonnier loss, Total Variation (TV) loss, and Structural Similarity Index Measure (SSIM) loss**.  
