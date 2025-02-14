@@ -138,14 +138,14 @@ Testing:
 
 ## ⚠️ Limitations and Future Work
 - **Limited Training Data:**  
-  Only 21,000 patches were used from the DF2K dataset due to resource constraints, potentially impacting generalization.
-  Training on the full DF2K dataset (around 120,000 patches) could enhance the model's generalization across diverse image types.
+  - Only 21,000 patches were used from the DF2K dataset due to resource constraints, potentially impacting generalization.
+  - Training on the full DF2K dataset (around 120,000 patches) could enhance the model's generalization across diverse image types.
 - **Model Architecture Constraints:**  
-  The absence of attention mechanisms due to resouce constraints limited the model’s ability to capture fine details, particularly in complex images (e.g., BSD100 and Urban100).
-  Adding non-local or channel attention or utilizing Vision Tranfoermers (ViTs) could help the model capture finer details and complex textures, improving perceptual quality and SSIM.
+  - The absence of attention mechanisms due to resouce constraints limited the model’s ability to capture fine details, particularly in complex images (e.g., BSD100 and Urban100).
+  - Adding non-local or channel attention or utilizing Vision Tranfoermers (ViTs) could help the model capture finer details and complex textures, improving perceptual quality and SSIM.
 - **Restricted Loss Function Exploration:**  
-  Advanced perceptual loss functions like LPIPS and VGG-based perceptual loss were not tested due to their computational complexity, which may have improved perceptual quality.
-  Integrating these losses may produce sharper, more visually appealing outputs, especially for challenging datasets.
+  - Advanced perceptual loss functions like LPIPS and VGG-based perceptual loss were not tested due to their computational complexity, which may have improved perceptual quality.
+  - Integrating these losses may produce sharper, more visually appealing outputs, especially for challenging datasets.
 - **Dataset-Specific Challenges:**  
-  The model underperformed on highly detailed artworks (Manga109), suggesting the need for either fine-tuning on specialized datasets or enhance architectural features.
+  - The model underperformed on highly detailed artworks (Manga109), suggesting the need for either fine-tuning on specialized datasets or enhance architectural features.
 
